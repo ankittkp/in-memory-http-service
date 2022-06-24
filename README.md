@@ -82,8 +82,8 @@ service/in-memory-http-service   NodePort    10.103.8.244   <none>        8000:3
 service/kubernetes       ClusterIP   10.96.0.1      <none>        443/TCP          41h
 
 NAME                                  READY   STATUS    RESTARTS   AGE
-pod/config-service-6bbfff8bb9-559gn   1/1     Running   0          35s
-pod/config-service-6bbfff8bb9-cm9fd   1/1     Running   0          35s
+pod/in-memory-http-service-6bbfff8bb9-559gn   1/1     Running   0          35s
+pod/in-memory-http-service-6bbfff8bb9-cm9fd   1/1     Running   0          35s
 
 NAME                             READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/in-memory-http-service    3/3     3            3           35s
